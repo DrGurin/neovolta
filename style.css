@@ -1,0 +1,171 @@
+
+*{
+    font-family: 'Open Sans', sans-serif; 
+    box-sizing: border-box; 
+    cursor: default; 
+}
+.invisible{
+    height: 76vh;
+    width: 25vw; 
+    background-color: #03a51e;
+    border-radius: 50%; 
+    position: absolute; 
+    left: 0; 
+    top: 12vh; 
+    margin-left: -22%;
+}
+header{
+height: 100vh;
+position: relative;
+background-color:#f5f5f5;
+padding-left: 7.3%;
+padding-right: 7.3%;
+padding-top:0; 
+padding-bottom:0; 
+}
+.top{
+    position: relative;
+    display: inline-block; 
+    height: 10.3%;
+    width: 100%; 
+    padding-top: 30px; 
+
+}
+.top_contact{
+    position: absolute;
+    left: 67%; 
+    top: 50%; 
+    margin-top: -12.5px; 
+}
+.top_contact h1, a{
+    display: inline-block; 
+    font-size: 25px; 
+    color: #515b69; 
+}
+.top_contact a{
+    text-decoration: none; 
+    padding: 10px;
+    border: 3px solid transparent;
+    transition: 0.5s ease all; 
+
+}
+.top_contact a:hover {
+    border-color: #515b69;
+    cursor: pointer; 
+}
+.top_contact a:active{ 
+    color: #03a51e; 
+    border: 3px solid  #03a51e;
+} 
+.top_contact a:visited{
+    color: #03a51e; 
+    
+}
+.top_contact h1{
+    /* margin-left: 38%; */
+    margin-right: 15px; 
+    font-weight: normal;
+}
+.top_contact i{
+    margin-right: 10px; 
+}
+
+/* Middle of the header */
+.middle{
+    height: 79.7vh; 
+    position: absolute; 
+}
+.middle_text{ 
+    padding: 0; 
+    margin: 0; 
+    margin-top: 30px; 
+    width: 58.7%;
+    height: 65vh; 
+}
+.middle_text h1{
+    padding: 0; 
+    margin: 0;
+    font-size: 42px; 
+    font-weight: 400;
+}
+.middle_text p {
+    margin-top: 30px; 
+    font-size: 22px; 
+}
+.middle_items{
+    margin-top: 65px;  
+    margin-left: -2%; 
+}
+table td {
+    height: 24px; 
+    width: 400px; 
+    position: relative;
+    padding: 15px; 
+}
+
+.middle_items p{
+    display: inline-block; 
+    font-size: 24px; 
+    position: absolute;
+    left: 28%;
+    width: 46%;  
+    height: 64%;
+    bottom: -6%;  
+
+}
+.middle_image{
+    padding: 1%; 
+    position:absolute;
+    top: 50%; 
+    margin-top: -36.7vh; 
+    right: 7.9%; 
+    height: 63.5vh;
+    width: 31vw;
+    border: 20px solid #03a51e; 
+    border-radius: 50%; 
+    text-align: center; 
+}
+.middle_image h1{
+    font-size: 30px; 
+    color: black; 
+    margin: 0; 
+    margin-top: -7%; 
+    padding: 0; 
+}
+.middle_image p{
+    font-size: 18px; 
+    margin: 0; 
+    padding: 0; 
+}
+.middle_image img{
+    margin-top: 5%; 
+}
+
+/* Bottom of heDER */
+
+.bottom{
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%;  
+    height: 10%;
+    background-color: #03a51e; 
+    color: white; 
+    text-align: center; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.bottom h1{
+    display: inline-block; 
+    font-size: 35px; 
+    
+}
+.bottom input{
+    margin-left: 8%; 
+    display: inline-block;
+    height: 55.6%;  
+}
+.bottom input::placeholder{
+    text-align: center; 
+}
